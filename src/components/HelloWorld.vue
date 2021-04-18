@@ -28,11 +28,17 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
     <create-blog></create-blog>
+    <delete-blog></delete-blog>
+    <update-blog></update-blog>
+    <query-blog></query-blog>
   </div>
 </template>
 
 <script>
 import CreateBlog from './CreateBlog.vue';
+import DeleteBlog from './DeleteBlog.vue';
+import QueryBlog from './QueryBlog.vue';
+import UpdateBlog from './UpdateBlog.vue';
 
 export default {
   name: 'HelloWorld',
@@ -41,9 +47,13 @@ export default {
   },
   components: {
     CreateBlog,
+    DeleteBlog,
+    UpdateBlog,
+    QueryBlog,
   }
 }
-</script>
+</script>,
+    QueryBlog
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
